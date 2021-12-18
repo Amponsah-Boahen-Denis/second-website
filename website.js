@@ -1,0 +1,41 @@
+const buttons=document.querySelectorAll('.con')
+const ans=document.querySelector('.test');
+const send=document.querySelector('#send');
+const reciev=document.getElementById('p');
+const names=document.getElementById('name');
+const email=document.getElementById('email');
+const message=document.getElementById('message');
+const no=document.getElementById('no');
+
+let kofi=false;
+for(let button of  buttons){
+  button.addEventListener('click',function(){
+    ans.classList.toggle('she');
+  }
+  );
+}
+send.addEventListener('click',function(e){
+  if( names.value==''|| email.value==''|| message.value=='') {
+    reciev.innerText='';
+   return no.innerText='Fill all the spaces!!';
+  };
+  var messages={
+    name:document.getElementById('name').value,
+    email:document.getElementById('email').value,
+    message:document.getElementById('message').value
+  }
+  
+  emailjs.send('service_4zy7trl','template_cdzwk4h',messages)
+    .then((e)=>{
+console.log('success', e.status)
+    })
+   names.value='';
+   email.value='';
+   message.value='';
+   no.innerText='';
+   reciev.innerText='message recieved!';
+   
+
+   
+  })
+
