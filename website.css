@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 body{
-background:url(back.jpg);
+background:linear-gradient(wheat,whitesmoke);
 background-position: center;
 background-size: cover;
 perspective:3000px;
@@ -27,6 +27,7 @@ flex-direction: column;
    position: fixed;
     transform-style: preserve-3d;
     transition: all ease-in 0.7s; 
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
     
 }
 img{
@@ -225,7 +226,7 @@ h2{
     display: flex;
     align-items:center;
     flex-direction: column;
-    
+   
 }
 #send{
     background-color: blue;
@@ -302,6 +303,7 @@ p{
     width:80%;
     background-color:white;
     border-radius:20px;
+    box-shadow:2px 2px 2px rgba(0,0,0,0.2);
 }
 .form input{
     height:40px;
