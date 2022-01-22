@@ -5,7 +5,7 @@ const reciev=document.getElementById('p');
 const names=document.getElementById('name');
 const email=document.getElementById('email');
 const message=document.getElementById('message');
-const no=document.getElementById('no');
+const empty=document.getElementById('no');
 
 let kofi=false;
 for(let button of  buttons){
@@ -32,7 +32,7 @@ console.log('success', e.status)
    names.value='';
    email.value='';
    message.value='';
-   no.innerText='';
+   empty.innerText='';
    reciev.innerText='message recieved!';
    
 
