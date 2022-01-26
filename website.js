@@ -1,4 +1,4 @@
-const buttons=document.querySelectorAll('.con')
+const buttons=document.querySelectorAll('.turn')
 const ans=document.querySelector('.test');
 const send=document.querySelector('#send');
 const reciev=document.getElementById('p');
@@ -10,7 +10,7 @@ const empty=document.getElementById('no');
 let kofi=false;
 for(let button of  buttons){
   button.addEventListener('click',function(){
-    ans.classList.toggle('she');
+    ans.classList.toggle('rotate');
   }
   );
 }

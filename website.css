@@ -92,7 +92,7 @@ img{
     font-size:16px;
     font-family: sans-serif;
 }
-.hi{
+.h2{
     color: yellowgreen;
     margin-left:120px;
     font-size: 20px;
@@ -148,7 +148,7 @@ h1{
 
 }
 
-.test.she {
+.test.rotate {
     transform:rotateY(180deg);
  }
  #portfo{
@@ -331,5 +331,3 @@ a{
     text-decoration:none;
     cursor:pointer;
     color: yellowgreen;
-    
-}
