@@ -7,7 +7,6 @@ const email=document.getElementById('email');
 const message=document.getElementById('message');
 const empty=document.getElementById('no');
 
-let kofi=false;
 for(let button of  buttons){
   button.addEventListener('click',function(){
     ans.classList.toggle('rotate');
