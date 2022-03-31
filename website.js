@@ -34,7 +34,5 @@ console.log('success', e.status)
    empty.innerText='';
    reciev.innerText='message recieved!';
    
-
-   
   })
 

@@ -20,11 +20,11 @@ flex-direction: column;
     display: flex;
     flex-wrap: wrap;
     margin-top: 80px;
-   min-height: 500px;
-   max-height: auto;
-   max-width: 800px;
-   min-width: auto;
-   position: fixed;
+    min-height: 500px;
+    max-height: auto;
+    max-width: 800px;
+    min-width: auto;
+    position: fixed;
     transform-style: preserve-3d;
     transition: all ease-in 0.7s; 
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
@@ -36,7 +36,6 @@ img{
     position: absolute;
     width: 260px;
     margin-left: 70px;
-    
     
 }
 .man{
@@ -92,6 +91,7 @@ img{
     font-size:16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .h2{
     color: yellowgreen;
     margin-left:120px;
@@ -140,7 +140,7 @@ h1{
     font-size: 17px;
     margin-left: 70px;
     margin-bottom: 2px;
-    margin-top: 70px;
+    margin-top:90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .front .left,.right{
@@ -179,54 +179,50 @@ h1{
     border-radius:10px;
     overflow: hidden;
 }
-.test .back{
+ .back{
     display: flex;
     justify-content:center;
+    flex-direction: row;
     align-items: center;
-   min-height: 500px;
-   max-height: auto;
-   position:absolute;
-   backface-visibility: hidden;
-  max-width: 800px;
-  min-width: auto;
+    flex-wrap: wrap;
+    position: absolute;
+    min-height: 500px;
+    
+    backface-visibility: hidden;
+    max-width:800px;
+    min-width: auto;
     background-color: white;
     transform:rotateY(180deg);
     border-radius:10px;
 }
-.inside{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    border-radius:10px;
-    max-width: 90%;
-    min-width: auto;
-    min-height:75vh;
-    max-height: auto;
-    background-color: whitesmoke;
-}
- 
 h2{
     color: blue;
     font-size:18px;
 }
 .project{
-   min-height: 70vh;
-    max-height: fit-content;
-    width:45%;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: 55px;
+    margin-right: 40px;
+    height:60vh;
+    width:350px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: whitesmoke;
+    border-radius: 20px;
 }
 .contact{
-    height: 70vh;
-    width:45%;
+    margin-top: 10px;
+    height:390px;
+    margin-right:50px;
+    width:300px;
     display: flex;
     align-items:center;
     flex-direction: column;
+    position:relation;
    
 }
 #send{
@@ -238,20 +234,26 @@ h2{
     border-radius:5px;
     border:hidden;
     cursor:pointer;
+    margin-bottom:5px;
 }
 .data{
     margin-top: 0;
 }
-.inside .work{
+#work1{
+    margin-top:280px;
+}
+ .work{
 display: flex;
 flex-wrap: wrap;
-height:21vh;
-width:95%;
+max-height:auto;
+min-height:21vh;
+max-width:95%;
+ min-width: auto;
 color: black;
 font-size:15px;
-margin-top:10px;
+margin:10px;
 background-color: white;
-border-radius: 20px;
+border-radius:20px;
 }
 #no{
     color:red;
@@ -332,3 +334,12 @@ a{
     text-decoration:none;
     cursor:pointer;
     color: yellowgreen;
+}
+#projects{
+    margin-top:-30px;
+    margin-bottom:0px;
+    margin-left:120px;
+    position: absolute;
+    
+    
+}
