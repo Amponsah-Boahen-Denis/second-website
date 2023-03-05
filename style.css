@@ -1,5 +1,5 @@
 body{
-    background-color:whitesmoke;
+   background-color: #0b4f6c;
     font-family: sans-serif;
 }
 *{
@@ -32,6 +32,7 @@ img{
    max-height: 60vh;
     align-self: center;
     border-radius: 100%;  
+    
 }
 .touch{
     margin-top:-50px;
