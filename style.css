@@ -41,6 +41,15 @@ img{
     max-width:230px ;
     
 }
+
+
+.touch1{
+    margin-top:-50px;
+    max-height:460px ;
+    max-width:330px ;
+    align-self:center;
+    
+}
 #home{
     
     height: 100vh;
@@ -51,4 +60,8 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+ }
+
+ .me{
+    overflow-y: scroll;
  }
